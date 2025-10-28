@@ -1,0 +1,279 @@
+<!DOCTYPE html>
+<html lang="ko">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>김강민</title>
+    <link rel="stylesheet" href="style.css">
+    <link href="https://fonts.googleapis.com/css2?family=Noto+Sans+KR:wght@300;400;500;700&display=swap" rel="stylesheet">
+</head>
+<body>
+    <div class="container">
+        <!-- Header Section -->
+        <header class="header">
+            <div class="profile-section">
+                <div class="profile-image">
+                    <div class="avatar"></div>
+                </div>
+                <div class="profile-info">
+                    <h1 class="name">김강민</h1>
+                    <p class="title">AI 서비스 개발자 (AI Service Developer)</p>
+                </div>
+            </div>
+        </header>
+
+        <!-- Main Content -->
+        <main class="main-content">
+            <!-- Basic Information -->
+            <section class="section">
+                <h2 class="section-title">기본 정보</h2>
+                <div class="info-grid">
+                    <div class="info-item">
+                        <span class="info-label">이름</span>
+                        <span class="info-value">김강민</span>
+                    </div>
+                    <div class="info-item">
+                        <span class="info-label">생년월일</span>
+                        <span class="info-value">2000.10.18</span>
+                    </div>
+                    <div class="info-item">
+                        <span class="info-label">전화번호</span>
+                        <span class="info-value">010-6637-1892</span>
+                    </div>
+                    <div class="info-item">
+                        <span class="info-label">주소</span>
+                        <span class="info-value">경상남도 밀양시</span>
+                    </div>
+                    <div class="info-item">
+                        <span class="info-label">이메일</span>
+                        <span class="info-value"><span class="copy-email" onclick="copyEmail()">kimgm1018@naver.com</span></span>
+                    </div>
+                    <div class="info-item">
+                        <span class="info-label">GitHub</span>
+                        <span class="info-value"><a href="https://github.com/kimgm1018" target="_blank">https://github.com/kimgm1018</a></span>
+                    </div>
+                </div>
+            </section>
+
+            <!-- Education -->
+            <section class="section">
+                <h2 class="section-title">최종 학력</h2>
+                <div class="education-list">
+                    <div class="education-item">
+                        <div class="education-period">2017.03 - 2019.02</div>
+                        <div class="education-details">
+                            <h3 class="education-school">밀양고등학교</h3>
+                            <p class="education-major">인문·상경 계열 졸업</p>
+                        </div>
+                    </div>
+                    <div class="education-item">
+                        <div class="education-period">2019.03 - 2025.08</div>
+                        <div class="education-details">
+                            <h3 class="education-school">경상국립대학교 (가좌)</h3>
+                            <p class="education-major">국어국문학 학사</p>
+                            <p class="education-major">한국어데이터정보학 학사 - [혐오 데이터셋을 활용한 G대학 커뮤티니의 혐오표현 분석]</p>
+                        </div>
+                    </div>
+                </div>
+            </section>
+
+            <!-- Experience -->
+            <section class="section">
+                <h2 class="section-title">경력</h2>
+                <div class="experience-list">
+                    <div class="experience-item">
+                        <div class="experience-period">2024. 06 ~ 2024. 06</div>
+                        <div class="experience-details">
+                            <h3 class="experience-company">Data.Ly</h3>
+                            <p class="experience-position">프리랜서</p>
+                            <ul class="experience-description">
+                                <li>정규적 추론문 작성 작업 (Data Tagging)</li>
+                            </ul>
+                        </div>
+                    </div>
+                    <div class="experience-item">
+                        <div class="experience-period">2025.08 ~ 현재</div>
+                        <div class="experience-details">
+                            <h3 class="experience-company">에스피메드</h3>
+                            <p class="experience-position">AI 서비스 개발자 (AI Service Developer)</p>
+                            <ul class="experience-description">
+                                <li>RAG 기법을 활용한 위험 약물 탐색 챗봇</li>
+                                <li>Lagchain 및 Langgraph를 활용한 환자별 유전 검사 결과 요약 기능 구현</li>
+                                <li>Lagchain 및 Langgraph를 활용한 의뢰 및 서비스 예약 챗봇</li>
+                                <li>GenoType AutoCalling 알고리즘 개발</li>
+                            </ul>
+                        </div>
+                    </div>
+                </div>
+            </section>
+
+            <!-- Major Projects & Achievements -->
+            <section class="section">
+                <h2 class="section-title">주요 프로젝트 및 성과</h2>
+                <div class="project-list">
+                    <div class="project-item">
+                        <div class="project-period">2024.09 - 2024.12</div>
+                        <div class="project-details">
+                            <h3 class="project-name">한국어 혐오표현 탐지 모델 개발 (졸업 논문 프로젝트)</h3>
+                            <p class="project-description">한국어 온라인 커뮤니티 데이터를 활용하여 혐오·비혐오 문장을 분류하는 KoBERT 기반 자연어처리 모델 구축</p>
+                            <ul class="project-tech">
+                                <li>Hugging Face Transformers, KoBERT</li>
+                                <li>Python, PyTorch, TensorFlow</li>
+                                <li>Selenium, Pandas</li>
+                            </ul>
+                        </div>
+                    </div>
+                    <div class="project-item">
+                        <div class="project-period">2025.08 - 2025.09</div>
+                        <div class="project-details">
+                            <h3 class="project-name">RAG 기반 의료 챗봇 개발</h3>
+                            <p class="project-description">위험 약물 탐색 및 환자별 유전 검사 결과 요약 기능을 포함한 의료용 챗봇 시스템 구축</p>
+                            <ul class="project-tech">
+                                <li>LangChain, LangGraph, LangSmith</li>
+                                <li>Python, FastAPI, SQL</li>
+                                <li>RAG, Vector Database, Elasticsearch</li>
+                            </ul>
+                        </div>
+                    </div>
+                    <div class="project-item">
+                        <div class="project-period">2025.09 - 2025.10</div>
+                        <div class="project-details">
+                            <h3 class="project-name">GenoType AutoCalling 알고리즘 개발</h3>
+                            <p class="project-description">CYP2D6 유전자형 자동 판독 시스템 개발로 분석 정확도 95% 향상 및 처리 시간 70% 단축</p>
+                            <ul class="project-tech">
+                                <li>Python, Pandas</li>
+                                <li>Statistical Analysis</li>
+                            </ul>
+                        </div>
+                    </div>
+                </div>
+            </section>
+
+            <!-- Technical Skills -->
+            <section class="section">
+                <h2 class="section-title">기술 스택 (Tech Stack)</h2>
+                <div class="skills-container">
+                    <div class="skill-category">
+                        <h3 class="skill-category-title">Programming Languages</h3>
+                        <div class="skill-items">
+                            <span class="skill-item">Python</span>
+                            <span class="skill-item">SQL</span>
+                        </div>
+                    </div>
+                    <div class="skill-category">
+                        <h3 class="skill-category-title">AI/ML Frameworks</h3>
+                        <div class="skill-items">
+                            <span class="skill-item">LangChain</span>
+                            <span class="skill-item">LangGraph</span>
+                            <span class="skill-item">LangSmith</span>
+                            <span class="skill-item">Pandas</span>
+                            <span class="skill-item">NumPy</span>
+                        </div>
+                    </div>
+                    <div class="skill-category">
+                        <h3 class="skill-category-title">Web Development</h3>
+                        <div class="skill-items">
+                            <span class="skill-item">FastAPI</span>
+                            <span class="skill-item">REST API</span>
+                            <span class="skill-item">React</span>
+                            <span class="skill-item">HTML/CSS</span>
+                        </div>
+                    </div>
+                    <div class="skill-category">
+                        <h3 class="skill-category-title">Tools & Others</h3>
+                        <div class="skill-items">
+                            <span class="skill-item">Git</span>
+                            <span class="skill-item">Docker</span>
+                            <span class="skill-item">Vector DB</span>
+                        </div>
+                    </div>
+                </div>
+            </section>
+
+            <!-- Certificates -->
+            <section class="section">
+                <h2 class="section-title">자격증 (Certificate)</h2>
+                <div class="certificate-list">
+                    <div class="certificate-item">
+                        <span class="certificate-name">정보처리기사</span>
+                        <span class="certificate-date">2024.08</span>
+                    </div>
+                    <div class="certificate-item">
+                        <span class="certificate-name">빅데이터분석기사</span>
+                        <span class="certificate-date">2025.07</span>
+                    </div>
+                </div>
+            </section>
+
+            <!-- Language Skills -->
+            <section class="section">
+                <h2 class="section-title">어학 성적 (Language Proficiency)</h2>
+                <div class="language-list">
+                    <div class="language-item">
+                        <span class="language-name">TOEIC</span>
+                        <span class="language-score">860/990 점</span>
+                        <span class="language-date">2025.03</span>
+                    </div>
+                </div>
+            </section>
+
+            <!-- Self Introduction -->
+            <section class="section">
+                <h2 class="section-title">자기소개서</h2>
+                <div class="self-intro">
+                    <p>
+                        저는 비전공자에서 실무형 AI 개발자로 성장한 개발자 김강민입니다.
+                    </p>
+                    <p>
+                        국어국문학과에서 언어의 구조와 의미를 탐구하며 분석적 사고를 기르고, 한국어데이터정보학(정보통계학·컴퓨터공학 부분 이수)을 통해 데이터 처리와 프로그래밍 역량을 함께 쌓았습니다.<br>
+                        비전공자로 시작했지만, 스스로 Python·ML·DL·LLM 등을 학습하며 실제 서비스 개발에 참여할 수 있을 만큼의 전문성을 갖추게 되었습니다.
+                    </p>
+                    <p>
+                        대학교 재학 중에는 혐오표현 탐지 모델을 직접 학습·검증하는 연구 프로젝트를 수행했습니다. 데이터 전처리부터 모델 학습, 평가까지 전 과정을 직접 진행하며 자연어처리(NLP)의 핵심 개념과 모델링 절차를 깊이 이해하게 되었습니다.<br>
+                        이러한 경험은 이후 실무 프로젝트에서 AI 모델을 설계하고 성능을 개선하는 데 큰 밑거름이 되었습니다.
+                    </p>
+                    <p>
+                        현재 근무 중인 회사에서는 LangChain·LangGraph 기반의 AI 서비스 개발을 담당했습니다.<br>
+                        구체적으로는 RAG 기법을 활용한 위험 약물 탐색 챗봇, 환자별 유전자 검사 결과 요약 기능, 의뢰 및 서비스 예약 챗봇을 개발했습니다.<br>
+                        또한 FastAPI 기반의 백엔드 구축과 프론트엔드 연동까지 구현하여 기획부터 배포까지의 전 과정을 경험했습니다.<br>
+                        <br>
+                        현재는 CYP2D6 유전자의 GenoType을 자동 판독하는 AutoCalling 알고리즘을 개발했으며, 이를 범용적으로 사용할 수 있도록 유연성을 고려하여 구현하고 있습니다.
+                    </p>
+                    <p>
+                        이러한 경험을 통해 저는 단순한 모델 구현을 넘어, 실제 사용자가 체감할 수 있는 AI 서비스를 설계·개발하는 역량을 갖추게 되었습니다.<br>
+                        앞으로도 언어와 데이터를 잇는 기술을 통해 실질적인 가치를 창출하고, 새로운 문제를 스스로 해결해내는 개발자로 성장해 나가겠습니다.
+                    </p>
+                </div>
+            </section>
+        </main>
+
+        <!-- Footer -->
+        <footer class="footer">
+            <p>&copy; 2025 김강민. All rights reserved.</p>
+        </footer>
+    </div>
+
+    <script>
+        function copyEmail() {
+            const email = 'kimgm1018@naver.com';
+            const emailElement = document.querySelector('.copy-email');
+            
+            // 클립보드에 복사
+            navigator.clipboard.writeText(email).then(function() {
+                // 복사 성공 시 스타일 변경
+                emailElement.classList.add('copied');
+                emailElement.textContent = '복사됨!';
+                
+                // 2초 후 원래 상태로 복원
+                setTimeout(function() {
+                    emailElement.classList.remove('copied');
+                    emailElement.textContent = email;
+                }, 800);
+            }).catch(function(err) {
+                // 복사 실패 시 알림
+                alert('이메일 주소 복사에 실패했습니다: ' + email);
+            });
+        }
+    </script>
+</body>
+</html>
