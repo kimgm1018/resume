@@ -368,6 +368,34 @@ body {
     line-height: 1.6;
 }
 
+.project-link {
+    font-size: 0.9rem;
+    font-weight: 500;
+    color: #000;
+    text-decoration: none;
+}
+
+.project-link:hover {
+    text-decoration: underline;
+}
+
+.project-links {
+    display: inline-flex;
+    align-items: center;
+    gap: 8px;
+    margin-left: 8px;
+    white-space: nowrap;
+}
+
+.project-tech-group .project-tech {
+    flex: 1;
+    margin: 0;
+}
+
+.project-details .experience-description {
+    margin-bottom: 15px;
+}
+
 .project-tech {
     list-style: none;
     padding-left: 0;
@@ -385,11 +413,38 @@ body {
     font-weight: 500;
 }
 
+.project-tech-groups {
+    display: flex;
+    flex-direction: column;
+    gap: 12px;
+}
+
+.project-tech-group {
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+    gap: 10px;
+}
+
+.tech-category-label {
+    flex-shrink: 0;
+    min-width: 110px;
+    font-size: 0.85rem;
+    font-weight: 600;
+    color: #333;
+}
+
 /* Skills Styles */
 .skills-container {
     display: grid;
     grid-template-columns: repeat(2, 1fr);
     gap: 30px;
+}
+
+@media (min-width: 1200px) {
+    .skills-container {
+        grid-template-columns: repeat(3, 1fr);
+    }
 }
 
 .skill-category {
@@ -626,6 +681,15 @@ body {
         min-width: auto;
         width: fit-content;
         margin: 0 auto;
+    }
+
+    .project-tech-group {
+        flex-direction: column;
+        gap: 8px;
+    }
+
+    .tech-category-label {
+        min-width: auto;
     }
     
     .certificate-list {
