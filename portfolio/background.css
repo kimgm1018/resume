@@ -1,0 +1,18 @@
+/* Animated gradients only inside Selected work image panels. */
+#work .visual,#work .small-visual{
+ background-image:linear-gradient(125deg,var(--card-start),var(--card-middle),var(--card-end),var(--card-start));
+ background-size:300% 300%;background-position:0% 50%;
+}
+#work .roki{--card-start:#e1e8da;--card-middle:#cddfcf;--card-end:#e6e4ce}
+#work .news{--card-start:#222b47;--card-middle:#343352;--card-end:#1c3d4b}
+#work .medical{--card-start:#e0e9ea;--card-middle:#cfe3de;--card-end:#dce2ee}
+#work .genotype{--card-start:#e7e1ef;--card-middle:#dcdff0;--card-end:#eedee6}
+#work .report{--card-start:#e9e8d5;--card-middle:#dde7cc;--card-end:#eee1ce}
+#work .board{--card-start:#eee4d4;--card-middle:#e9d6cb;--card-end:#e8e6cd}
+@media(prefers-reduced-motion:no-preference){
+ #work .visual,#work .small-visual{animation:card-gradient 20s ease-in-out infinite alternate}
+ #work .news,#work .genotype{animation-delay:-7s}
+ #work .report,#work .board{animation-delay:-13s}
+}
+@keyframes card-gradient{from{background-position:0% 50%}to{background-position:100% 50%}}
+@media print{#work .visual,#work .small-visual{animation:none!important}}
