@@ -37,3 +37,10 @@ Notion 원문, 자격번호, 개인 서류는 사이트에 복사하지 않았�
 ## 프로젝트 사진 카드
 
 ROKI와 별빛뉴스는 `photo-deck` 버튼 안에 `shuffle-card` 두 개를 겹쳐 표시합니다. 각 카드의 `<img src="../파일명.png" alt="사진 설명">`을 교체하면 됩니다. 현재 ROKI는 roki.png와 roki_detect_lying_person.png, 별빛뉴스는 별빛뉴스.png와 별빛뉴스_그래프_이미지.png를 사용합니다. roki_detect_bin.png는 교체용으로 사용할 수 있습니다. 마우스 진입마다 한 번 교체하고, 클릭·터치·키보드 Enter/Space로도 교체합니다. 동작 줄이기 설정에서는 이동 없이 순서만 바뀝니다.
+
+## RunWay (2026-11-20 추가)
+
+- 근거: SSAFY 팀 GitLab 저장소(비공개)의 김강민 개인 커밋 82건(2026-10-26 ~ 2026-11-18). 저장소가 비공개라 링크 대신 출처 문구만 표시했습니다.
+- 개인 기여로 적은 항목은 모두 본인 커밋으로 확인한 것입니다: 그룹런 API(G01–G16, 시작·라이브·강제종료·결과), 실시간 순위 계산기(GroupRunLiveRanking), 러닝 종료 후 분석(AFTER_COMMIT 이벤트 + 재기동 복구), AI06 심박 개인화 비동기 연동, 크루 승인 비관적 잠금, PostGIS↔GeoJSON 유틸, 커뮤니티·크루·코스 API, 후반 FE·Wear 연동과 QA 수정.
+- 팀 전체 기능(AI 코스 추천 모델, 준비도 분석 등)은 개인 기여에 넣지 않았습니다. 팀 내 공식 역할명·수상 여부가 정해지면 배지와 문구를 보완하세요.
+- 카드 사진: runway_cover.png(홍보 이미지, Downloads), runway_watch_rank.png·runway_watch_pace.png(팀 저장소 docs/design/watch-handoff 워치 디자인 시안). 실기기·앱 캡처가 생기면 같은 photo-deck에서 교체하세요.
