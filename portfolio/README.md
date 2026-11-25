@@ -36,7 +36,7 @@ Notion 원문, 자격번호, 개인 서류는 사이트에 복사하지 않았�
 
 ## 프로젝트 사진 카드
 
-ROKI와 별빛뉴스는 `photo-deck` 버튼 안에 `shuffle-card` 두 개를 겹쳐 표시합니다. 각 카드의 `<img src="../파일명.png" alt="사진 설명">`을 교체하면 됩니다. 현재 ROKI는 roki.png와 roki_detect_lying_person.png, 별빛뉴스는 별빛뉴스.png와 별빛뉴스_그래프_이미지.png를 사용합니다. roki_detect_bin.png는 교체용으로 사용할 수 있습니다. 마우스 진입마다 한 번 교체하고, 클릭·터치·키보드 Enter/Space로도 교체합니다. 동작 줄이기 설정에서는 이동 없이 순서만 바뀝니다.
+ROKI와 별빛뉴스는 `photo-deck` 버튼 안에 `shuffle-card` 두 개를 겹쳐 표시합니다. 각 카드의 `<img src="../assets/projects/파일명.png" alt="사진 설명">`을 교체하면 됩니다. 현재 ROKI는 roki.png와 roki_detect_lying_person.png, 별빛뉴스는 별빛뉴스.png와 별빛뉴스_그래프_이미지.png를 사용합니다. roki_detect_bin.png는 교체용으로 사용할 수 있습니다. 마우스 진입마다 한 번 교체하고, 클릭·터치·키보드 Enter/Space로도 교체합니다. 동작 줄이기 설정에서는 이동 없이 순서만 바뀝니다.
 
 ## RunWay (2026-11-20 추가)
 

@@ -20,6 +20,10 @@
 .small-visual:has(img)::after{content:"";position:absolute;inset:0;background:linear-gradient(180deg,#0009,transparent 30%,transparent 75%,#0007);pointer-events:none;z-index:0}
 .small-visual:has(img) .corner{position:relative;z-index:1;color:#fff}
 .small-visual:has(img) .corner{position:absolute;bottom:20px;right:24px}
+.moment-grid{grid-template-columns:repeat(4,minmax(0,1fr));gap:12px}
+.moment-grid figure{margin:0;aspect-ratio:4/3;overflow:hidden;border-radius:4px;background:#e8e6de}
+.moment-grid img{display:block;width:100%;height:100%;object-fit:cover}
+@media(max-width:600px){.moment-grid{display:flex;overflow-x:auto;gap:10px;scroll-snap-type:x mandatory;padding-bottom:8px}.moment-grid figure{flex:0 0 62%;scroll-snap-align:start}}
 
 .project-kicker{margin:0 0 12px;font-size:10px;line-height:1.6;letter-spacing:1.2px;color:#737b69}
 
