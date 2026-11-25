@@ -1,0 +1,31 @@
+@keyframes enter {
+  from { opacity: 0; transform: translateY(20px); }
+  to { opacity: 1; transform: translateY(0); }
+}
+@media (prefers-reduced-motion: no-preference) {
+  .hero-enter { animation: enter .85s cubic-bezier(.2,.7,.2,1) both; }
+  .hero > :nth-child(2) { animation-delay: .1s; }
+  .hero > :nth-child(3) { animation-delay: .2s; }
+  .hero > :nth-child(4) { animation-delay: .3s; }
+  .reveal { opacity: 0; transform: translateY(25px); transition: opacity .75s ease, transform .75s cubic-bezier(.2,.7,.2,1); }
+  .reveal.is-visible { opacity: 1; transform: translateY(0); }
+  .moment-grid > :nth-child(2) { transition-delay: .08s; }
+  .moment-grid > :nth-child(3) { transition-delay: .16s; }
+  .photo-frame { transition: transform .65s cubic-bezier(.2,.7,.2,1); }
+  .visual-bottom > span, .corner, summary > span, .round-link {
+    transition: transform .3s ease, background-color .3s ease;
+  }
+  details[open] .detail-grid { animation: enter .35s ease both; }
+  .visual:focus-visible .photo-frame { transform: rotate(0) scale(1.025); }
+  .visual:focus-visible .visual-bottom > span { transform: translate(3px,-3px); }
+  @media (hover: hover) and (pointer: fine) {
+    .visual:hover .photo-frame { transform: rotate(0) scale(1.025); }
+    .visual:hover .visual-bottom > span, .small-visual:hover .corner { transform: translate(3px,-3px); }
+    .round-link:hover { transform: translateY(4px); }
+    .moment-grid > div:hover { transform: translateY(-5px); }
+  }
+}
+@media (prefers-reduced-motion: reduce), print {
+  .reveal { opacity: 1 !important; transform: none !important; }
+  .hero-enter, details[open] .detail-grid { animation: none !important; }
+}
