@@ -38,3 +38,10 @@
 #work .runway{--card-start:#0f1a1e;--card-middle:#123036;--card-end:#16232c}
 .runway .shuffle-card,.runway .shuffle-card img{background:#05090c;border-color:#2c4148}
 .runway .shuffle-card:first-child img{object-fit:cover}
+
+/* Technology applied in the author's own work on each project. */
+.used-tech{border-top:1px solid var(--line);margin:4px 0 22px;padding-top:12px}
+.used-tech strong{display:block;font-size:10px;letter-spacing:.04em;color:#758655;margin-bottom:6px}
+.used-tech p{margin:0;max-width:900px;font-size:12px;line-height:1.75;color:#4e594a}
+.secondary-grid .used-tech{margin:16px 0 20px;padding-top:10px}
+@media(max-width:600px){.used-tech p{font-size:11px}}
