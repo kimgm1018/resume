@@ -15,12 +15,12 @@
 
 - https://github.com/kimgm1018/chat_bot/blob/main/README.md : 예약·의뢰 대화 상태 관리, 정보 수집, SMTP 메일, 기록 저장. 위험약물 RAG 설명은 아래 Notion 자료로 보완.
 - https://github.com/junfn1018-cmd/autocalling_web/blob/main/README.md : 4개 패널, 3개 ratio 분석, 다이플로타입 후보와 시각화.
-- https://github.com/kimgm1018/RunWay/blob/master/README.md : 서버·앱·워치 구성과 프로젝트 전체의 GRU 심박 예측 모델. AI 모델은 개인 담당 기술로 표기하지 않았습니다.
-- https://github.com/kimgm1018/RoKi/blob/master/ai/README.md : YOLO26n 탐지와 `korean_PP-OCRv5_mobile_rec` 번호판 OCR.
-- https://github.com/kimgm1018/star_news/blob/master/README.md : 서비스 전체의 KPF-BERT·KF-DeBERTa·KURE-v1 모델과 프레임워크. 개인 담당 인프라와 구분했습니다.
+- https://github.com/kimgm1018/RunWay/blob/master/README.md : 서버의 Spring Boot·PostGIS 구성. 포트폴리오에는 개인이 구현한 API와 경로 데이터 처리 기술만 기술했습니다.
+- https://github.com/kimgm1018/RoKi/blob/master/ai/README.md : 개인 담당 범위에 해당하는 YOLO26n 탐지와 PaddleOCR 번호판 인식.
+- https://github.com/kimgm1018/star_news/blob/master/README.md : 개인이 구성한 EC2·Nginx·Docker Compose·Jenkins 배포 환경.
 - https://github.com/kimgm1018/chat_bot/blob/main/demo/chat_bot_1.py : `gpt-4o`, `OpenAIEmbeddings`, FAISS, LangGraph 사용 코드.
 - https://github.com/junfn1018-cmd/autocalling_web/blob/main/requirements.txt : Flask, BioPython, NumPy, SciPy, Matplotlib 의존성.
-- 약물유전체 리포트와 할래말래는 공개 구현 파일에서 모델명을 확인하지 못해, 기존에 확인된 처리 방식과 프레임워크만 표기했습니다.
+- 약물유전체 리포트와 할래말래는 공개 구현 파일에서 모델명을 확인하지 못해, 기존에 확인된 개인 구현 방식과 프레임워크만 표기했습니다. 팀원이 담당한 모델·기술은 프로젝트별 적용 기술에서 제외했습니다.
 - 연결된 Notion의 ‘자소서 소스 정리’: ROKI 개인 담당, 4주 시현, 의료 챗봇·약물 리포트·변이 알고리즘 구분, 할래말래 렌더링 개선과 교육 실적.
 - 사용자 정정(2026-10-28): SPMED 2025.08~2025.10, SSAFY 2026.01~현재.
 
